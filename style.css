@@ -1,0 +1,40 @@
+nav {
+    background-color: #c89251; /* #f6c96d */
+}
+
+#logo {
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    box-shadow: 0 0 0.4rem 0.3rem black;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer; 
+}
+
+.card-image {
+    height: auto;
+}
+
+footer {
+    background-image: url("images/footer2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 88vh;
+    margin-top: 8rem;
+}
+
+@media only screen and (max-width: 900px) {
+    footer {
+        height: 48vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        height: 20vh;
+    }
+}
