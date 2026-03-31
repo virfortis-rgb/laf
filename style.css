@@ -9,6 +9,13 @@ nav {
   box-shadow: 0 0 0.2rem 0.1rem darkgrey;
 }
 
+.nav-title {
+  color: #f4edda;
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-shadow: 0.1rem 0.1rem black;
+}
+
 button {
   background-color: #ac5a2c;
   border-radius: 50%;
@@ -17,28 +24,31 @@ button {
 }
 
 #logo {
-    height: 320px;
-    width: 320px;
-    border-radius: 50%;
-    box-shadow: 0 0 0.4rem 0.3rem black;
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+  box-shadow: 0 0 0.4rem 0.3rem black;
 }
 
-#landing > h1 {
-  font-weight: 600;
+.title {
+  color: #e3ba76;
+  font-weight: 800;
+  font-size: 3rem;
+  text-shadow: 0.2rem 0.2rem black;
 }
 
 .card-link {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 footer {
-    background-image: url("images/footer_color.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 88vh;
-    margin-top: 8rem;
+  background-image: url("images/footer_color.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 88vh;
+  margin-top: 8rem;
 }
 
 #offcanvasWithBothOptions {
@@ -56,13 +66,13 @@ footer {
 }
 
 @media only screen and (max-width: 900px) {
-    footer {
-        height: 48vh;
-    }
+  footer {
+    height: 48vh;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    footer {
-        height: 20vh;
-    }
+  footer {
+    height: 20vh;
+  }
 }
