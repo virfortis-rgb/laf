@@ -6,7 +6,7 @@
 
 nav {
   background-color: #e3ba76; /*   #c89251*/
-  box-shadow: 0 0 1rem 0.2rem black;
+  box-shadow: 0 0 0.2rem 0.1rem darkgrey;
 }
 
 button {
@@ -43,6 +43,15 @@ footer {
     background-repeat: no-repeat;
     height: 88vh;
     margin-top: 8rem;
+}
+
+#offcanvasWithBothOptions {
+  background-color: #f5f3e2;
+}
+.link {
+  text-decoration: none;
+  color: #ac5a2c;
+  padding-inline: 1rem;
 }
 
 @media only screen and (max-width: 900px) {
