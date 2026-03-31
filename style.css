@@ -1,5 +1,19 @@
+.body {
+  background-color: #f5f3e2;
+  margin: 0 auto;
+  text-align: center;
+}
+
 nav {
-    background-color: #c89251; /* #f6c96d */
+  background-color: #e3ba76; /*   #c89251*/
+  box-shadow: 0 0 1rem 0.2rem black;
+}
+
+button {
+  background-color: #ac5a2c;
+  border-radius: 50%;
+  border-color: #ac5a2c;
+  color: #f5f3e2;
 }
 
 #logo {
@@ -9,10 +23,14 @@ nav {
     box-shadow: 0 0 0.4rem 0.3rem black;
 }
 
+#landing > h1 {
+  font-weight: 600;
+}
+
 .card-link {
     text-decoration: none;
-    color: inherit; 
-    cursor: pointer; 
+    color: inherit;
+    cursor: pointer;
 }
 
 .card-image {
