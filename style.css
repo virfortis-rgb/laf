@@ -1,5 +1,5 @@
 .body {
-  background-color: #f5f3e2;
+  background-color: #f4edda;
   margin: 0 auto;
   text-align: center;
 }
@@ -13,7 +13,7 @@ button {
   background-color: #ac5a2c;
   border-radius: 50%;
   border-color: #ac5a2c;
-  color: #f5f3e2;
+  color: #f4edda;
 }
 
 #logo {
@@ -34,7 +34,7 @@ button {
 }
 
 footer {
-    background-image: url("images/footer2.png");
+    background-image: url("images/footer_color.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 88vh;
@@ -42,7 +42,7 @@ footer {
 }
 
 #offcanvasWithBothOptions {
-  background-color: #f5f3e2;
+  background-color: #f4edda;
 }
 .link {
   text-decoration: none;
