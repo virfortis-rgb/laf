@@ -61,6 +61,16 @@ footer {
 
   &:hover {
     color: #83441f;
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ac5a2c;
+  padding-inline: 1rem;
+
+  &:hover {
+    color: #83441f;
     font-size: larger;
   }
 }
