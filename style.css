@@ -23,6 +23,10 @@ button {
   color: #f4edda;
 }
 
+.accordion-button {
+  background-color: #e3ba76;
+}
+
 #logo {
   height: 320px;
   width: 320px;
@@ -55,6 +59,16 @@ footer {
   background-color: #f4edda;
 }
 .link {
+  text-decoration: none;
+  color: #ac5a2c;
+  padding-inline: 1rem;
+
+  &:hover {
+    color: #83441f;
+  }
+}
+
+.nav-link {
   text-decoration: none;
   color: #ac5a2c;
   padding-inline: 1rem;
