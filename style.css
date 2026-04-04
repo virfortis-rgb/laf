@@ -1,10 +1,8 @@
-.body {
+html {
   background-color: #f4edda;
-  margin: 0 auto;
-  text-align: center;
 }
 
-nav {
+.navbar-top {
   background-color: #e3ba76; /*   #c89251*/
   box-shadow: 0 0 0.2rem 0.1rem darkgrey;
 }
@@ -21,10 +19,6 @@ button {
   border-radius: 50%;
   border-color: #ac5a2c;
   color: #f4edda;
-}
-
-.accordion-button {
-  background-color: #e3ba76;
 }
 
 #logo {
@@ -48,7 +42,7 @@ button {
 }
 
 footer {
-  background-image: url("images/footer_color.png");
+  background-image: url("images/footer.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 88vh;
@@ -58,17 +52,8 @@ footer {
 #offcanvasWithBothOptions {
   background-color: #f4edda;
 }
+
 .link {
-  text-decoration: none;
-  color: #ac5a2c;
-  padding-inline: 1rem;
-
-  &:hover {
-    color: #83441f;
-  }
-}
-
-.nav-link {
   text-decoration: none;
   color: #ac5a2c;
   padding-inline: 1rem;
