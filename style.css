@@ -1,10 +1,27 @@
-html {
+body {
   background-color: #f4edda;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.navbar-top {
+nav {
   background-color: #e3ba76; /*   #c89251*/
+}
+
+header {
+    nav {
   box-shadow: 0 0 0.2rem 0.1rem darkgrey;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: #ac5a2c;
+  padding-inline: 1rem;
+
+  &:hover {
+    color: #83441f;
+  } 
 }
 
 .nav-title {
@@ -19,6 +36,10 @@ button {
   border-radius: 50%;
   border-color: #ac5a2c;
   color: #f4edda;
+}
+
+.accordion-button {
+  background-color: #e3ba76;
 }
 
 #logo {
@@ -42,26 +63,11 @@ button {
 }
 
 footer {
-  background-image: url("images/footer.png");
+  background-image: url("images/footer_color.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 88vh;
   margin-top: 8rem;
-}
-
-#offcanvasWithBothOptions {
-  background-color: #f4edda;
-}
-
-.link {
-  text-decoration: none;
-  color: #ac5a2c;
-  padding-inline: 1rem;
-
-  &:hover {
-    color: #83441f;
-    font-size: larger;
-  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -70,8 +76,12 @@ footer {
   }
 }
 
+
 @media only screen and (max-width: 600px) {
   footer {
     height: 20vh;
+  }
+  .col-3 {
+      display: none;
   }
 }
